@@ -3,8 +3,8 @@ launchpad-linux-driver
 
 ## TI Lauchpad MSP430 kernel module fix
 
-Getting a TI Launchpad MSP430's serial connection is a pain. This is what
-worked for me under a recent kernel (3.12.8-300) under Fedora 20.
+Getting a TI Launchpad MSP430's serial connection to work under Linux is a pain.
+This is what worked for me under a recent kernel (3.12.8-300) under Fedora 20.
 
 Simply run "make", and if it builds you should back up your cdc-acm.ko module
 somewhere and replace it with the one you just built, then run "depmod -a" and
